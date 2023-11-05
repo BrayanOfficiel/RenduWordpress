@@ -1,0 +1,37 @@
+.site-header {
+    background: #eee;
+    width: 100%;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 0;
+    max-width: 800px;
+}
+
+.custom-logo-link img {
+    height: 50px;
+    width: auto;
+}
+
+.main-menu {
+    margin-left: 20px;
+    width: auto !important;
+}
+
+.main-menu a {
+    color: #777 !important;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.15s ease-in-out;
+}
+
+.main-menu a:hover {
+    color: #000 !important;
+}

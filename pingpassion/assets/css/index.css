@@ -1,0 +1,41 @@
+.main-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: url("https://www.ping-passion.com/wp-content/uploads/ping-passion/slider/victas.jpg");
+    min-height: 500px;
+}
+
+.titre {
+    padding: 20px;
+    border-radius: 10px;
+    background: #00000050;
+    box-shadow: 0 0 10px 5px #00000050;
+    text-align: center;
+}
+
+.links-index {
+    padding: 2em;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 1.5rem;
+    background: #446084b0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.15s ease-in-out;
+    box-shadow: 0 0 5px 0px #446084b0;
+}
+
+.link:hover {
+    background: #446084;
+    box-shadow: 0 0 10px 0px #446084;
+}
